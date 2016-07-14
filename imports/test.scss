@@ -1,6 +1,4 @@
-// @import './toimport.scss';
-
 .foo {
-  composes: importedClass from './toimport.scss';
-  background-color: #000;
+  composes: compClass from "./toimport.scss";
+  height: 200px;
 }
